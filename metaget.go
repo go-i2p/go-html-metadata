@@ -1,6 +1,6 @@
 // Package metadata provides functionality to extract meta tags from web pages.
 // It is designed to be used in web crawlers, scrapers, and other tools that need to extract metadata from HTML pages.
-package gohtmlmetadata
+package htmlmetadata
 
 import (
 	"fmt"
