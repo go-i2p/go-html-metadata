@@ -1,5 +1,11 @@
 module github.com/go-i2p/go-html-metadata
 
-go 1.23.5
+go 1.26.0
 
-require golang.org/x/net v0.37.0
+require golang.org/x/net v0.59.0
+
+retract (
+	v0.1.59999
+	v0.1.5999
+	v0.1.599
+)
